@@ -1,0 +1,19 @@
+Favpic=$FAVPIC_HOME CD=$FAVPIC_HOME {
+ README.md
+ env.init.sh
+ config=config {
+  config.php
+ }
+ framework=framework {
+  controller.php
+  router.php
+  view.php
+  frame_const.php
+ }
+ webroot=webroot {
+  index.php
+ }
+ controller=controller {
+  IndexController.php
+ }
+}
